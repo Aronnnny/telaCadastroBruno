@@ -90,16 +90,16 @@
   left: 8px;
   font-family: "Poppins-Light", Helvetica;
   font-weight: 300;
-  color: #000;
+  color: #42546C;
   font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
 }
 
 .tela-de-login .text-wrapper-2 {
-  position: absolute;
-  width: 477px;
-  top: 135px;
+  position: relative;
+  width: 480px;
+  top: 70px;
   left: 1321px;
   font-family: "Poppins-Light", Helvetica;
   font-weight: 300;
@@ -112,8 +112,24 @@
 .tela-de-login .div-wrapper {
   position: absolute;
   width: 117px;
-  height: 53px;
-  top: 287px;
+  height: 30px;
+  top: 207px;
+  left: 1492px;
+}
+.tela-de-login .div-wrapper-email {
+  position: absolute;
+  width: 117px;
+  height: 30px;
+  top: 520px;
+  left: 1492px;
+}
+
+
+.tela-de-login .div-wrapper-2 {
+  position: absolute;
+  width: 117px;
+  height: 30px;
+  top: 360px;
   left: 1492px;
 }
 
@@ -135,7 +151,7 @@
   position: absolute;
   width: 115px;
   height: 50px;
-  top: 459px;
+  top: 680px;
   left: 1492px;
 }
 
@@ -162,8 +178,8 @@
   position: absolute;
   width: 292px;
   height: 93px;
-  top: 674px;
-  left: 1415px;
+  top: 873px;
+  left: 1450px;
 }
 
 .tela-de-login .overlap-group-2 {
@@ -188,7 +204,7 @@
 
 .tela-de-login .text-wrapper-6 {
   position: absolute;
-  top: 783px;
+  top: 984px;
   left: 1478px;
   font-family: "Glory-ExtraLight", Helvetica;
   font-weight: 200;
@@ -205,7 +221,7 @@
   position: absolute;
   width: 477px;
   height: 99px;
-  top: 343px;
+  top: 257px;
   left: 1326px;
 }
 
@@ -217,7 +233,7 @@
 }
 
 .tela-de-login .buttonlogin{
-  position: relative;
+  top:30;
   width: 290px;
   height: 93px;
   background-size: 100% 100%;
@@ -257,10 +273,10 @@
 }
 
 .tela-de-login .inputNS {
-  width: 477px;
-  height: 92px;
+  width: 475px;
+  height: 93px;
   border-radius: 50px;
-  font-size: 25px;
+  font-size: 27px;
   font-family: "Glory-ExtraLight", Helvetica;
   font-weight: 200;
   color: #8b8b8c;
@@ -275,7 +291,21 @@
   position: absolute;
   width: 477px;
   height: 99px;
-  top: 526px;
+  top: 750px;
+  left: 1326px;
+}
+.tela-de-login .group-cpf {
+  position: absolute;
+  width: 477px;
+  height: 99px;
+  top: 420px;
+  left: 1326px;
+}
+.tela-de-login .group-email {
+  position: absolute;
+  width: 477px;
+  height: 99px;
+  top: 580px;
   left: 1326px;
 }
 

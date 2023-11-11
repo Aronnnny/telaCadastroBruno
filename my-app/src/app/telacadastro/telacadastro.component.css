@@ -1,0 +1,338 @@
+.tela-de-login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tela-de-login .imggrande{
+  position: fixed;
+  width: 1196px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.tela-de-login .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+//posicionamento img grande
+.tela-de-login .overlap { 
+  position: absolute;
+  width: 1196px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-image: src("./assets/telalogineclipse.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.tela-de-login .group {
+  position: absolute;
+  width: 449px;
+  height: 119px;
+  top: 18px;
+  left: 43px;
+}
+
+.tela-de-login .logo {
+  position: absolute;
+  width: 120px;
+  height: 119px;
+  top: 0;
+  left: 0;
+  background-blend-mode: luminosity;
+  object-fit: cover;
+}
+
+.tela-de-login .livro-mente {
+  position: absolute;
+  top: 24px;
+  left: 137px;
+  font-family: "Glory-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 63px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-de-login .overlap-group {
+  position: absolute;
+  width: 519px;
+  height: 181px;
+  top: 371px;
+  left: 145px;
+}
+
+.tela-de-login .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #6786AD;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .fa-a-seu-login-para {
+  position: absolute;
+  top: 85px;
+  left: 8px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #42546C;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .text-wrapper-2 {
+  position: relative;
+  width: 480px;
+  top: 70px;
+  left: 1321px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #849a8a;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .div-wrapper {
+  position: absolute;
+  width: 117px;
+  height: 30px;
+  top: 207px;
+  left: 1492px;
+}
+.tela-de-login .div-wrapper-email {
+  position: absolute;
+  width: 117px;
+  height: 30px;
+  top: 520px;
+  left: 1492px;
+}
+
+
+.tela-de-login .div-wrapper-2 {
+  position: absolute;
+  width: 117px;
+  height: 30px;
+  top: 360px;
+  left: 1492px;
+}
+
+.tela-de-login .text-wrapper-3 {
+  position: absolute;
+  width: 115px;
+  top: 0;
+  left: 0;
+  font-family: "Glory-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-de-login .group-wrapper {
+  position: absolute;
+  width: 115px;
+  height: 50px;
+  top: 680px;
+  left: 1492px;
+}
+
+.tela-de-login .group-2 {
+  position: relative;
+  width: 117px;
+  height: 50px;
+}
+
+.tela-de-login .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Glory-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-de-login .overlap-group-wrapper {
+  position: absolute;
+  width: 292px;
+  height: 93px;
+  top: 873px;
+  left: 1450px;
+}
+
+.tela-de-login .overlap-group-2 {
+  position: relative;
+  width: 290px;
+  height: 93px;
+  background-size: 100% 100%;
+}
+
+.tela-de-login .text-wrapper-5 {
+  position: absolute;
+  top: 22px;
+  left: 95px;
+  font-family: "Glory-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-de-login .text-wrapper-6 {
+  position: absolute;
+  top: 984px;
+  left: 1478px;
+  font-family: "Glory-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #0e0ade;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.tela-de-login .overlap-wrapper {
+  position: absolute;
+  width: 477px;
+  height: 99px;
+  top: 257px;
+  left: 1326px;
+}
+
+.tela-de-login .overlap-2 {
+  position: relative;
+  width: 475px;
+  height: 99px;
+  background-size: 100% 100%;
+}
+
+.tela-de-login .buttonlogin{
+  top:30;
+  width: 290px;
+  height: 93px;
+  background-size: 100% 100%;
+  font-size: 45px;
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  transition: .3s;
+}
+.tela-de-login .buttonlogin:hover{
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+
+.tela-de-login .text-wrapper-7 {
+  position: absolute;
+  width: 182px;
+  top: 34px;
+  left: 102px;
+  font-family: "Glory-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #8b8b8c;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-de-login .icon-user {
+  position: absolute;
+  width: 33px;
+  height: 36px;
+  top: 28px;
+  left: 44px;
+}
+
+.tela-de-login .inputNS {
+  width: 475px;
+  height: 93px;
+  border-radius: 50px;
+  font-size: 27px;
+  font-family: "Glory-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #8b8b8c;
+  font-left: 102px;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding-left: 5.5rem;
+  white-space: nowrap;
+}
+
+.tela-de-login .group-3 {
+  position: absolute;
+  width: 477px;
+  height: 99px;
+  top: 750px;
+  left: 1326px;
+}
+.tela-de-login .group-cpf {
+  position: absolute;
+  width: 477px;
+  height: 99px;
+  top: 420px;
+  left: 1326px;
+}
+.tela-de-login .group-email {
+  position: absolute;
+  width: 477px;
+  height: 99px;
+  top: 580px;
+  left: 1326px;
+}
+
+.tela-de-login .overlap-3 {
+  position: relative;
+  width: 475px;
+  height: 99px;
+  background-size: 100% 100%;
+}
+
+.tela-de-login .text-wrapper-8 {
+  position: absolute;
+  top: 38px;
+  left: 102px;
+  font-family: "Glory-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #8b8b8c;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-de-login .icon-lock {
+  position: absolute;
+  width: 30px;
+  height: 29px;
+  top: 38px;
+  left: 47px;
+}
