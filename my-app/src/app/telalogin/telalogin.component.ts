@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AccountService } from '../account/shared/account.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-tela-login',
-  templateUrl: './tela-login.component.html',
-  styleUrls: ['./tela-login.component.css']
+  selector: 'app-telalogin',
+  templateUrl: './telalogin.component.html',
+  styleUrls: ['./telalogin.component.css']
 })
-export class TelaLoginComponent implements OnInit {
+export class TelaloginComponent {
   login = {
     email : '',
     password : ''
@@ -36,3 +36,4 @@ export class TelaLoginComponent implements OnInit {
 
 
 }
+

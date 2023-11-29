@@ -18,44 +18,50 @@
       </div>
       <div class="text-wrapper-2">Cadastro de vendedor</div>
       <div class="div-wrapper"><div class="text-wrapper-3">Nome:</div></div>
+     
+      <div class="div-wrapper-2"><div class="text-wrapper-3">Email:</div></div>
 
-      <div class="div-wrapper-2"><div class="text-wrapper-3">CPF:</div></div>
-
-      <div class="div-wrapper-email"><div class="text-wrapper-3">Email:</div></div>
+      <div class="div-wrapper-email"><div class="text-wrapper-3">Senha:</div></div>
 
       <div class="group-wrapper">
-        <div class="group-2"><div class="text-wrapper-4">Senha:</div></div>
+        <div class="group-2"><div class="text-wrapper-4">Confirme sua senha:</div></div>
       </div>
 
-      <div class="overlap-group-wrapper">
-        <button type="submit" class="buttonlogin">Cadastrar-se</button>
-      </div>
+     
       <div class="text-wrapper-6">Cadastrar-se como cliente</div>
-      <form>
+      <form (ngSubmit)="onSubmit()" #form="ngForm">
       <div class="overlap-wrapper">
         
         <div class="overlap-2">
           <img class="icon-user" src="assets/usericon.svg" />
-          <input class="inputNS" type="text" placeholder="Digite seu nome...">
+          <input class="inputNS" type="text" name="completeName" [(ngModel)]="account.completeName" placeholder="Digite seu nome...">
+        </div>
+        <div class="overlap-2">
+          <img class="icon-user" src="assets/usericon.svg" />
+          <input class="inputNS" type="text" name="userName" [(ngModel)]="account.userName" placeholder="Digite seu Username...">
         </div>
       </div>
+      
       <div class="group-cpf">
         <div class="overlap-2">
           <img class="icon-user" src="assets/cpficon.svg" />
-          <input class="inputNS" type="text" placeholder="Digite seu CPF...">
+          <input class="inputNS" type="email" name="email"  [(ngModel)]="account.email" placeholder="Digite seu Email...">
         </div>
       </div>
       <div class="group-email">
         <div class="overlap-2">
           <img class="icon-user" src="assets/emailicon.svg" />
-          <input class="inputNS" type="text" placeholder="Digite seu Email...">
+          <input class="inputNS" type="password" name="password" [(ngModel)]="account.password" placeholder="Digite sua senha...">
         </div>
       </div>
       <div class="group-3">
         <div class="overlap-3">
           <img class="icon-lock" src="assets/iconcadeado.svg" />
-          <input class="inputNS" type="password" placeholder="Digite sua senha...">
+          <input class="inputNS" type="password" name="confirmPassword" [(ngModel)]="account.confirmPassword" placeholder="Confirme sua senha...">
         </div>
+      </div>
+      <div class="overlap-group-wrapper">
+        <button type="submit" class="buttonlogin">Cadastrar-se</button>
       </div>
     </form>
     </div>

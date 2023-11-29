@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AccountService } from '../account/shared/account.service';
 
 @Component({
-  selector: 'app-telacadastro',
-  templateUrl: './telacadastro.component.html',
-  styleUrls: ['./telacadastro.component.css']
+  selector: 'app-tela-cadastro',
+  templateUrl: './tela-cadastro.component.html',
+  styleUrls: ['./tela-cadastro.component.css']
 })
-export class TelacadastroComponent implements OnInit {
+export class TelaCadastroComponent {
   account = {
     completeName: '',
     userName:'',
@@ -29,6 +29,4 @@ export class TelacadastroComponent implements OnInit {
       console.error(error);
     }
   }
-};
-
-
+}
